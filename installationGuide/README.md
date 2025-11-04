@@ -1,6 +1,6 @@
 # OpenFold and Attention Visualization Demo Setup
 
-This document provides instructions for setting up OpenFold and the Attention Visualization Demo in your environment.
+This document provides instructions for setting up OpenFold and the Attention Visualization Demo in your HPC environment.
 
 ## Prerequisites
 
@@ -10,10 +10,10 @@ This document provides instructions for setting up OpenFold and the Attention Vi
 
 ## Installation
 
-1. Open the `install.ipynb` notebook in Jupyter
+1. Open the `install.ipynb` notebook in Jupyter, or other compatible IDE
 2. Select a Python kernel
 3. Set environment variables in the first cell as required
-4. Click "Run All" to execute the installation process. This will install OpenFold and the Attention Visualization Demo in your environment.
+4. Click "Run All" to execute the installation process. This will install OpenFold and the Attention Visualization Demo in your HPC environment.
 
 ## Notes
 
