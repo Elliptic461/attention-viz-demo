@@ -14,7 +14,7 @@ This document provides instructions for setting up OpenFold and the Attention Vi
 2. Click on the button labeled kernel (Top right)
 3. Select "Jupyter kernel", then "openfold_env" kernel. If it doesn't appear, click the refresh button. 
 4. For the second line of the first cell ("os.environ['ROOT_DIR'] = '~/scratch'"). Change the directory to where you want to store your Openfold and Attention Visualization Demo. 
-5. Click "Run All" to execute the installation process. This will install OpenFold and the Attention Visualization Demo in your environment.
+5. Click "Run All" to execute the installation process. This will switch to a conda environment, install all dependences, and install OpenFold and the Attention Visualization Demo in your environment.
 
 ## Notes
 
