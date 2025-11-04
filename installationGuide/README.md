@@ -7,6 +7,8 @@ This document provides instructions for setting up OpenFold and the Attention Vi
 - Conda package manager 
 - Access to the AlphaFold data directory (typically at `/storage/ice1/shared/d-pace_community/alphafold/alphafold_2.3.2_data` for Georgia Tech PACE ICE, and `/anvil/datasets/alphafold/db` for Purdue Anvil)
 - Sufficient disk space, estimated at least 50GB of free disk space
+- Access to a compute cluster with Slurm workload manager
+- GPU allocation for running the visualization demo (must be run as a job on a compute node with GPU access)
 
 ## Installation
 
