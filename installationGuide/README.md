@@ -6,14 +6,15 @@ This document provides instructions for setting up OpenFold and the Attention Vi
 
 - Conda package manager 
 - Access to the AlphaFold data directory (typically at `/storage/ice1/shared/d-pace_community/alphafold/alphafold_2.3.2_data` for Georgia Tech PACE ICE, and `/anvil/datasets/alphafold/db` for Purdue Anvil)
-- Sufficient disk space, estimated at least 60GB of free disk space
+- Sufficient disk space, estimated at least 50GB of free disk space
 
 ## Installation
 
 1. Open the `install.ipynb` notebook in Jupyter, or other compatible IDE
-2. Select a Python kernel
-3. Set environment variables in the first cell as required
-4. Click "Run All" to execute the installation process. This will install OpenFold and the Attention Visualization Demo in your HPC environment.
+2. Click on the button labeled kernel (Top right)
+3. Select "Jupyter kernel", then "openfold_env" kernel. If it doesn't appear, click the refresh button. 
+4. For the second line of the first cell ("os.environ['ROOT_DIR'] = '~/scratch'"). Change the directory to where you want to store your Openfold and Attention Visualization Demo. 
+5. Click "Run All" to execute the installation process. This will install OpenFold and the Attention Visualization Demo in your environment.
 
 ## Notes
 
